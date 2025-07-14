@@ -26,8 +26,8 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  /* min-width: 100vw;
+  min-height: 100vh; */
 }
 
 h1 {
@@ -65,4 +65,12 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+
+/* codigo puesto para testear */
+html, body, #root {
+  width: 100%;
+  height: 100%;
 }
